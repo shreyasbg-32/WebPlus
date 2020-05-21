@@ -1,0 +1,59 @@
+
+
+
+<div class="container"  id ="cover">
+<!--     
+    <h4><label>Select blood group to request</label></h4>
+         <br>
+         <select class="form-control" name="group" required ngModel required #group="ngModel" >
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            
+       </select>
+      
+        <br>
+        <br><br>
+        <button class="btn btn-success">Check Blood</button>
+         <br>
+          -->
+          <div class="row">
+            <nav class="navbar navbar-dark  ">
+              <div class="container">
+                <!-- <div class="navbar-header">
+              <a>    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWOI1MKMWgjn8d5g6z0dIIe0vPwBeGiRK6BNMeFDFIVZ0Gppmo"  width="100px"></a>>
+                </div> -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                    <button style="background: none ;float: left;margin-left:-1100px;"  (click)=onClick() type="button"  ><span style="color: rgb(47, 9, 90);"> <<=back</span></button>
+
+                      <li><a href="http://localhost:3000/"><span style="color: rgb(47, 9, 90);"> ADD SCHEDULE</span></a></li>
+                    <li><a href="#contact"><span style="color: rgb(47, 9, 90);">LOGOUT</span></a>
+                      <!-- <button   (click)=onClick() type="button"  >Medical</button> -->
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        
+        </div>
+    <div *ngIf="don != null">
+        <div class="row">
+            
+            <div *ngFor="let i of don">
+                <div class="mat-card" >
+                    <h4>NAME:{{i.username}}</h4>
+                    <h4>Mobile number:{{i.mobile}}</h4>
+                    <h4>Group:{{i.group}}</h4>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

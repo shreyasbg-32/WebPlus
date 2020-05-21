@@ -1,0 +1,38 @@
+<div id="cover" style="background-image: url(https://static.wixstatic.com/media/85baeb_d155e10f3b8d4aff829822a4b828a58a~mv2_d_2800_1273_s_2.jpg);">
+    <div class="row">
+        <nav class="navbar navbar-dark  ">
+          <div class="container">
+            <!-- <div class="navbar-header">
+          <a>    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWOI1MKMWgjn8d5g6z0dIIe0vPwBeGiRK6BNMeFDFIVZ0Gppmo"  width="100px"></a>>
+            </div> -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <button style="background: none ;float: left;margin-left:-1100px;"  (click)=onClick() type="button"  ><<=back</button>
+                  <li><a href="http://localhost:3000/"><span style="color: rgb(47, 9, 90);"> ADD SCHEDULE</span></a></li>
+                <li><a href="#contact"><span style="color: rgb(47, 9, 90);">LOGOUT</span></a>
+                  <!-- <button   (click)=onClick() type="button"  >Medical</button> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    
+    </div>
+    <marquee  direction="left"> <h1 style="color: rgb(155, 7, 29);font-size: 4em;">Ask Docter !!</h1>
+    </marquee>
+    <div class="mat-card">
+        <form class="form2" (submit)="enquiry(ques)" #ques="ngForm" >
+    
+    
+        
+            <h3 style="color: rgb(117, 31, 48);margin-left: 50px;">Enter your query here</h3>
+            <h6 style="margin-left: 50px;">Format:Name,Email and then query,If email is not present,enter your contact Number</h6>
+        <textarea name="query" style="margin-left: 50px;margin-top: 20px;" id="query" ngModel required #query="ngModel">
+            
+         </textarea>
+         <br>
+         <button type="submit">Enquire</button>
+        </form>
+    </div>
+    
+</div>

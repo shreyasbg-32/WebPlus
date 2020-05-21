@@ -1,0 +1,64 @@
+.Welcome{
+    background-image: none;
+}
+
+.background{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.iKTrVTfsb7vX_0f3ytFBxQHaEK&pid=Api&P=0&w=271&h=153");
+    
+}
+.div2{
+    background-color: blanchedalmond;
+    border-style: inherit;
+    
+    border-radius: 0.5;
+}
+
+.div3{
+    background-color: blanchedalmond ;
+    border-style: outset;
+    
+}
+
+.form-control{
+    background-color: rgb(223, 158, 17);
+    border-radius: 1rem;
+    /* width: auto; */
+}
+/* .mat-card{
+    width:100px;
+    margin-left: 200px;
+} */
+
+.navbar {
+    
+    /* background-color: #0009; */
+    /* opacity: 0.7; */
+    z-index: 9999;
+    border: 0;
+     
+    line-height: 1.42857143;
+    letter-spacing: 4px;
+    border-radius: 0; 
+   
+      float: right;
+      font-size: 20px ;
+  }
+  .nav.navbar-nav.navbar-right {
+    color: white;
+  }
+  nav ul li :hover{
+    background-color: rgb(247, 246, 244);
+    
+  }
+
+  /* .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  } */

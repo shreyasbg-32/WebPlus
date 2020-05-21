@@ -1,0 +1,111 @@
+button {
+    border:none;
+    outline:none;
+    height:40px;
+    background:rgb(206, 24, 24);
+    color:#fff;
+    font-size:18px;
+    border-radius: 20px;
+    width: 150px;
+    margin-left: 50px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(2, 73, 100);
+ 
+ }
+ button:hover{
+     cursor:pointer;
+     background:#2621b8;
+     color:rgb(97, 9, 9);
+ }
+ .mat-card{
+     width: 300px;
+     height: 200px;
+     background-image: linear-gradient(rgb(204, 87, 79));
+     color:#741111;
+     margin-top: 100px;
+     margin-left:50%;
+     position:absolute;
+     padding: 70px 30px;
+     transform: translate(-50%,50%);
+     
+     box-sizing: border-box;
+ }
+ .im{
+     width:100px;
+     height:100px;
+     border-radius:50%;
+     position:absolute;
+     top:-50px;
+     left:calc(50%,-50px);
+     margin-left: 78px;
+ }
+ .mat-card p{
+     margin: 0;
+     padding: 0;
+     font-weight: bold;
+ }
+ .mat-card input{
+     width:100%;
+     margin-bottom:20px;
+ }
+ .mat-card input[type="text"],input[type="password"]  {
+   border: none;
+   border-bottom: 1px solid #fff;
+   background:transparent;
+   outline:none;
+   height :40px;
+   color:rgb(8, 7, 7);
+   font-size:16px;
+ }
+ .mat-card a{
+     text-decoration: none;
+     font-size: 12px;
+     line-height:20px;
+     color:rgb(78, 7, 7);
+ }
+ 
+ #cover{
+     height: 753px;
+     width: 100%;
+     background-image: url('https://png.pngtree.com/back_origin_pic/04/58/58/93667a2057da2636d2a99394c43de0cc.jpg');  
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .mat-card{
+     box-shadow: -10px 23px 200px -12px rgba(0,0,0,2.90);   
+     }
+
+     .navbar {
+    
+        /* background-color: #0009; */
+        /* opacity: 0.7; */
+        z-index: 9999;
+        border: 0;
+         
+        line-height: 1.42857143;
+        letter-spacing: 4px;
+        border-radius: 0; 
+       
+          float: right;
+          font-size: 20px ;
+      }
+      .nav.navbar-nav.navbar-right {
+        color: white;
+      }
+      nav ul li :hover{
+        background-color: rgb(247, 246, 244);
+        
+      }
+    
+      /* .navbar li a, .navbar .navbar-brand {
+        color: #fff !important;
+      }
+      .navbar-nav li a:hover, .navbar-nav li.active a {
+        color: #f4511e !important;
+        background-color: #fff !important;
+      }
+      .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: #fff !important;
+      } */
+    

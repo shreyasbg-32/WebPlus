@@ -1,0 +1,38 @@
+<div id="cover">
+    <div class="row">
+        <nav class="navbar navbar-dark  ">
+          <div class="container">
+            <!-- <div class="navbar-header">
+          <a>    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWOI1MKMWgjn8d5g6z0dIIe0vPwBeGiRK6BNMeFDFIVZ0Gppmo"  width="100px"></a>>
+            </div> -->
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <!-- <button style="background: none ;float: left;margin-left:-1100px;"  (click)=onClick() type="button"  ><<=back</button> -->
+
+                  <!-- <li><a href="http://localhost:4200/doctor-dashboard"><span style="color: rgb(47, 9, 90);"> ADD SCHEDULE</span></a></li> -->
+                <li><a href="#contact"><span style="color: rgb(47, 9, 90);">LOGOUT</span></a>
+                  <!-- <button   (click)=onClick() type="button"  >Medical</button> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    
+    </div>
+    <div class="mat-card">
+        <form class="form2" (submit)="queryAnswer(ans)" #ans="ngForm">
+  
+
+            <input  placeholder="Enter email" type="text" name="Email" id="Email" ngModel required #Email="ngModel"/>
+           
+           <h2>Enter your query here</h2>
+           <h2>Format:Name,Email and then query</h2>
+            <textarea name="queryAns" id="queryAns" ngModel required #queryAns="ngModel">
+           
+           </textarea>
+           <button type="submit">Submit</button>
+       </form>
+    </div>
+    
+
+</div>

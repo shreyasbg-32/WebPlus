@@ -1,0 +1,37 @@
+<div class="container"  id ="cover">
+    
+    <marquee behavior="slide" direction="down"> <h1 style="color: burlywood;font-size: 5em;">Health care</h1>
+        <button style="margin: auto;display: block;text-align: center;color: blanchedalmond;" (click)=onClick1() type="button1">User</button>
+
+    
+    </marquee>
+     
+     
+     <div class="mat-card" >
+             <img src="https://tse4.mm.bing.net/th?id=OIP.E0O7MAbI2NLIxz6ddmmsxAHaHa&pid=Api&P=0&w=300&h=300" class="im">
+         <marquee direction="down" behavior="slide" ><h1 style="color:rgb(206, 24, 24);font-family:'Times New Roman', Times, serif;">Log in</h1>
+             <form (submit)="validate(loginForm)" #loginForm="ngForm">
+                     
+                    <p>E-mail/Username</p>
+                     <input  placeholder="Enter username" type="text" name="Email" ngModel required #Email="ngModel"/>
+                     <!-- <mat-error *ngIf="name.invalid">Username required</mat-error> -->
+                     <p>Password</p>
+                     <input  placeholder="Enter Password" type="password" name="password" ngModel required #password="ngModel"/>
+                     <!-- <mat-error *ngIf="password.invalid">Passwords required</mat-error> -->
+                                                                       
+                         
+                  
+ 
+                  
+                 <br>
+                 <button   type="submit"  >Login In</button>
+                 <br>
+                 
+                     <button style="background: none "  (click)=onClick() type="button"  >New Doctor/Signup</button>
+                 
+             </form>
+         </marquee>
+         </div>
+  
+     
+ </div>

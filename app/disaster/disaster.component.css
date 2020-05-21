@@ -1,0 +1,56 @@
+h1 {
+    
+    text-align: center;
+  text-shadow:  0 0 25px rgb(255, 17, 0), 0 0 5px rgb(0, 100, 139);
+  }
+   
+.mat-card{
+    width: 500px;
+    height: auto;
+    background-image: linear-gradient(rgb(175, 190, 211));
+    color:rgb(116, 17, 17);
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.mat-card{
+    box-shadow: -10px 23px 200px -12px rgba(0,0,0,2.90);   
+    }
+h4{
+    color:  crimson;
+}
+
+.navbar {
+    
+    /* background-color: #0009; */
+    /* opacity: 0.7; */
+    z-index: 9999;
+    border: 0;
+     
+    line-height: 1.42857143;
+    letter-spacing: 4px;
+    border-radius: 0; 
+   
+      float: right;
+      font-size: 20px ;
+  }
+  .nav.navbar-nav.navbar-right {
+    color: white;
+  }
+  nav ul li :hover{
+    background-color: rgb(247, 246, 244);
+    
+  }
+
+  /* .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  } */

@@ -1,0 +1,311 @@
+<!-- <p>dashboard works!</p> -->
+
+<!-- <form (submit)="validateUser(loginForm)" #loginForm="ngForm">
+
+<button style="background: none "   type="submit"  >Add Schedule</button>
+<a href="url">link text</a>
+</form> -->
+
+<!-- <a href="http://localhost:3000/">Add Schedule</a> -->
+
+<!-- <img src="https://img.freepik.com/free-photo/healthcare-medical-concept-medicine-doctor-with-stethoscope-hand-patients-come_34200-313.jpg?size=626&ext=jpg" class="im"> -->
+
+<div class="container" id="cont">
+    
+<div class="container-fluid con" style="padding-left: 350px;color: antiquewhite;"  >
+    <div class="row">
+      <nav class="navbar navbar-dark  ">
+        <div class="container">
+          <!-- <div class="navbar-header">
+        <a>    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWOI1MKMWgjn8d5g6z0dIIe0vPwBeGiRK6BNMeFDFIVZ0Gppmo"  width="100px"></a>>
+          </div> -->
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://localhost:3000/"><span style="color: rgb(47, 9, 90);"> ADD SCHEDULE</span></a></li>
+              <li><a href="#contact"><span style="color: rgb(47, 9, 90);">LOGOUT</span></a>
+                <!-- <button   (click)=onClick() type="button"  >Medical</button> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  </div>
+
+    <div class="col-xs-12">
+      <div class="row">
+         <div class="col-xs-7">
+        </div>
+         <div class="col-xs-5">
+          
+          <div class="card" style="margin-top: 200px;">
+                  <div class="card-body" style="text-align: center; height: 150px;
+                  color: rgb(47, 9, 90);">
+                  <span class="blinking">
+                      <h3 style="font-family: cursive;">  
+                     <br>
+                        <b> Prevention is better <br><hr>than cure</b><br></h3>
+                      </span>
+                      </div>
+                  </div>
+
+                  <br>
+                  <div class="card">
+                          <div class="card-body" style="text-align: center; height: 150px;margin-top: 0px; color: rgb(47, 9, 90);">
+                            <span class="blinking"> 
+                             <h3 style="font-family: cursive;">  
+                             
+                                <b>Prepare and prevent<br><hr> Dont repair and repent </b><br>
+                              </h3></span>
+                              </div>
+                          </div>
+</div>
+      </div>
+    
+  </div>
+</div>
+</div>
+
+
+
+<div class="car" style="margin-left: 80px;">
+
+  <div class="col-xs-12" style="margin-top: 120px;">
+    <h1 style="color:red;">Just hover to proceed</h1>
+    <br><br><br><br><br>
+    <div class="row">
+      
+       <div class="col-xs-4">
+       
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="https://images-na.ssl-images-amazon.com/images/I/61Hl02ch9QL._SY355_.jpg" style="width: 350px;height: 350px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>first aid</h1>
+              <p>check out first aid tips here</p>
+              <p>save your precious time</p>
+              <button   (click)=onClick() type="submit"  >first aid</button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      
+      
+
+
+
+       <div class="col-xs-4">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRO1wU4QLG2Did66pWZio0su9uJvRO1xvu_PQAukXwUorXC81ii" alt="Avatar" style="width:350px;height:350px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Disaster management</h1>
+              <p>prepare and prevent</p>
+              <p>Dont repair and repent</p>
+              <button   (click)=onClicksss() type="submit"  >emergency</button>
+            </div>
+          </div>
+        </div>
+         
+  </div>
+  <div class="col-xs-4">
+    
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="data:image/png;base64,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" alt="Avatar" style="width:350px;height:350px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Blood bank</h1>
+          <p>keep calm</p>
+          <p>and donate blood</p>
+          <button (click)=onClicks()  type="submit"  >bank</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+          
+           
+        
+    </div>
+  
+  </div>
+  
+</div>
+<div class="car" style="margin-top: 800px;margin-left: 80px;">
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+                        <img src="data:image/jpeg;base64,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" style="height: 350px;width: 350px;">
+
+          </div>
+          <div class="flip-card-back">
+            <h1>Enquire</h1>
+            <p>Ask a Doctor</p>
+            <p>Follow the suggestions</p>
+            <button   (click)=onClick1() type="submit"  >Ask</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://www.computerhowtoguide.com/wp-content/uploads/2012/03/How-Doctors-are-using-Social-Media-and-Technology.jpg" style="width:350px;height:350px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Enquire</h1>
+            <p>Ask a Doctor</p>
+            <p>Follow the suggestions</p>
+            <button   (click)=onClick2() type="submit"  >See Doctors Here</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4">                 
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/815aCyzOmpL._SY355_.png" alt="Avatar" style="width:350px;height:350px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Health tips</h1>
+            <p>prevention is</p>
+            <p>better than cure</p>
+            <button  (click)=onClickss() type="submit"  >tips</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+  <div class="container" style="margin-top: 300px;height:900px;background-color:silver;width: auto;">
+  <h1>Optional:You can order medicines from medical store here just by filling the form given below.Amount can be given to delivery boy.</h1>
+<div class="mat-card">
+  <form (submit)=sendMailToStore(form) #form="ngForm" >
+    <div class="row">
+      <div class="col-xs-6">
+        <mat-form-field style="color: rgb(48, 25, 14)">
+          <br>
+          <p>Enter phone number registered</p>
+          <input  matInput  placeholder="" name="number" type="text" id="number"   ngModel required #number="ngModel"/>
+          <mat-error *ngIf="number.invalid"><span style="color: red;">Phone number required</span></mat-error>
+      </mat-form-field><br>
+      <mat-form-field style="color: rgb(48, 25, 14)">
+        <br>
+        <p>Enter your tablet name(s) respectively</p>
+        <input matInput placeholder="" type="text" name="tablet" id="tablet" ngModel required #tablet="ngModel"/>
+        <mat-error *ngIf="tablet.invalid"><span style="color: red;"> tablet name required</span></mat-error>
+    </mat-form-field>
+    <br>
+    <mat-form-field style="color: rgb(48, 25, 14)">
+      <br>
+      <p>Enter Number of tablets respectively</p>
+      <input matInput placeholder="" type="text" name="tabNum" id="tabNum" ngModel required #tablet="ngModel"/>
+      <mat-error *ngIf="tablet.invalid"><span style="color: red;"> tablet number required</span></mat-error>
+    </mat-form-field>
+      </div>
+
+      <div class="col-xs-6">
+        <mat-form-field style="color: rgb(48, 25, 14)">
+          <br>
+          <p>Enter your name</p>
+          <input matInput placeholder="" type="text" name="name" id="name" ngModel required #tablet="ngModel"/>
+          <mat-error *ngIf="tablet.invalid"><span style="color: red;">  Name required</span></mat-error>
+        </mat-form-field>
+        <br>
+        
+        <mat-form-field style="color:rgb(48, 25, 14)">
+          <br>
+          <p>Enter email of store given in receipt</p>
+          <input matInput placeholder="" type="text" name="email" id="email" ngModel required #tablet="ngModel"/>
+          <mat-error *ngIf="tablet.invalid"><span style="color: red;">  email required</span></mat-error>
+        </mat-form-field>
+      </div>
+      
+    </div>
+    
+<br>
+      
+<p>Enter complete address of your house</p>
+  <!-- <input  placeholder="Enter phone number given to medical store" type="text" name="number" id="number" ngModel required #number="ngModel"><br> -->
+    <!-- <input  placeholder="Enter your tablet name(s) respectively" type="text" name="tablet" id="tablet" ngModel required #tablet="ngModel"><br> -->
+    <!-- <input  placeholder="Enter Number of tablets respectively" type="text" name="tabNum" id="tabNum" ngModel required #tablet="ngModel"><br> -->
+    <!-- <input  placeholder="Enter your name" type="text" name="name" id="name" ngModel required #tablet="ngModel"> -->
+    <!-- <input  placeholder="Enter email of store given in receipt" type="text" name="email" id="email" ngModel required #tablet="ngModel"> -->
+   <br> <textarea rows="4" cols="50" name="address"  style="margin-top: 20px;"ngModel required #notification="ngModel">
+     Type here</textarea> 
+    <button type="submit" class="btn-btn-success">Order</button>
+</form>
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="footer" style="height: 40.8em;background-color: black;margin-top: 300px;">
+
+  <div class="col-xs-12" style="margin-top: 120px;">
+    <div class="row">
+      <div class="col-xs-4">
+        <h2 style="color: rgb(72, 118, 192);font-style: initial;margin-left: 31px;">Health care</h2>
+        <hr style="width: 439px;border-style:inset;"> 
+        <h4 style="margin-left: 30px;color: rgb(122, 118, 113);"> This Health care management application will be like in an online healthcare
+          management service provider with easy to use customizable options. The
+          application is accessible from anywhere for all account holders. 
+          </h4>
+
+      </div>
+      <div class="col-xs-4">
+        <h2 style="color: rgb(72, 118, 192);font-style: initial;padding-left: 40px;">Contact us</h2>
+        <hr style="width: 400px;border-style:inset;">
+        
+          
+          <h4 style="margin-left: 50px;color: rgb(122, 118, 113);">Shreyas B.G</h4>
+          <h5 style="margin-left: 50px;color: rgb(122, 118, 113);">9620554255</h5>
+          <h5 style="margin-left: 50px;color: rgb(122, 118, 113);">shreyasbg32@gmail.com</h5>
+          <br><h4 style="margin-left: 50px;color: rgb(122, 118, 113);">Sufiyaan khan A.N</h4>
+          <h5 style="margin-left: 50px;color: rgb(122, 118, 113);">8197189179</h5>
+          <h5 style="margin-left: 50px;color: rgb(122, 118, 113);">sufiyaandvg@gmail.com</h5>
+        
+      </div>
+      <div class="col-xs-4">
+        <h2 style="color: rgb(72, 118, 192);font-style: initial;padding-left: 40px;">location</h2>
+        <hr style="width: 400px;border-style:inset;">
+        
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.375573721884!2d77.12390611477444!3d13.326897890623494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb02e826fb691ef%3A0xe78608813c36f380!2sSiddaganga%20Institute%20Of%20Technology%2C%20Tumakuru!5e0!3m2!1sen!2sin!4v1579079618375!5m2!1sen!2sin" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" style="margin-left: 40px;"></iframe>
+      </div>
+    </div>
+</div>
+
+<pre style="background-color: black;margin-top: -1px;color: burlywood;">
+                                                                         Terms Of Use | Privacy Policy | Interest-Based AdsWelg
+
+                                                       For premier service,  visit our website  — for tabletschedule ,bloodbank,health tips and more!
+
+                                                                      For health and medical related issues, do visit our website.
+</pre>
+<h4 style="text-align: center;color:rgb(72, 118, 192) ;">copyrights @<b>Health Care</b> ALL RIGHTS RESERVED</h4>
+</div>
+

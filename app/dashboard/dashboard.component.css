@@ -1,0 +1,191 @@
+ #cont{
+    height: 700px;
+    width: 100%;
+    background-image: url('https://image.freepik.com/free-photo/doctor-points-white-coat_8119-2468.jpg');  
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     scroll-behavior: smooth;
+     /* animation: slide 50s infinite; */
+ }
+
+ /* @keyframes slide{
+   25%{
+     background-image: url('https://image.freepik.com/free-photo/doctor-using-europe-map-globe-network-hologram_117023-885.jpg');
+   }
+   50%{
+     background-image: url('https://image.freepik.com/free-photo/stethoscope-with-pulse-outline-tube_23-2148264156.jpg');
+   }
+   75%{
+     background-image: url('https://image.freepik.com/free-photo/stethoscope-with-pulse-outline-tube_23-2148264156.jpg');
+   }
+    100%{
+     background-image: url('https://image.freepik.com/free-photo/stethoscope-with-pulse-outline-tube_23-2148264156.jpg');
+   }
+ } */
+ .navbar {
+    
+    /* background-color: #0009; */
+    /* opacity: 0.7; */
+    z-index: 9999;
+    border: 0;
+     
+    line-height: 1.42857143;
+    letter-spacing: 4px;
+    border-radius: 0; 
+   
+      float: right;
+      font-size: 20px ;
+  }
+  .nav.navbar-nav.navbar-right {
+    color: white;
+  }
+  nav ul li :hover{
+    background-color: rgb(247, 246, 244);
+    
+  }
+
+  /* .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  } */
+
+  .mat-card{
+    
+    height: auto;
+    /* background-image: linear-gradient(to top left,rgb(80, 120, 179),rgb(38, 93, 129),rgba(85, 115, 172, 0.712),rgb(59, 113, 158),rgb(135, 165, 221),rgba(62, 133, 155, 0.712),rgb(63, 101, 156)); */
+    color:#741111;
+    margin-left:50%;
+    position:absolute;
+    padding: 70px 30px;
+    transform: translate(-50%,10%);
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+h1 {
+    
+  margin:0;
+  padding: 0 0 20px;
+  text-align: center;
+  color: brown;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(0, 100, 139);
+}
+ /* .column {
+    float: left;
+    width: 50%;
+  } */
+  .card{
+    margin-top: 20px;opacity: 0.67;
+
+}
+.card{
+  box-shadow: -1px 10px 100px -12px rgba(0,0,0,0.75);}
+
+
+.mat-card{
+ box-shadow: -1px 10px 100px -12px rgba(0,0,0,0.75);   
+}
+
+ 
+ 
+
+button {
+  border:none;
+  outline:none;
+  height:30px;
+  background:rgb(206, 24, 24);
+  color:#fff;
+  font-size:18px;
+  border-radius: 20px;
+  width: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(2, 73, 100);
+
+}
+button:hover{
+   cursor:pointer;
+   background:#2621b8;
+   color:rgb(97, 9, 9);
+}
+  
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1.3s;
+  transform-style: preserve-3d;
+  box-shadow: -1px 10px 100px -12px rgba(1,1,1,0.88);   
+
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgb(4, 20, 36);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+.blinking {
+ 
+  
+  justify-content: center;
+  /* background-color: rgba(0, 0, 0, 0.884); */
+}
+
+h3 {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  /* background: linear-gradient(90deg,#b9adad);
+  background-repeat: no-repeat; */
+  /* background-size: 100%; */
+  /* animation: animate 3s linear infinite; */
+  /* -webkit-background-clip: text; 
+   -webkit-text-fill-color: rgba(83, 38, 38, 0); */
+}
+
+/* @keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+} */

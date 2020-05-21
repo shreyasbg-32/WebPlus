@@ -1,0 +1,47 @@
+<div id="cover">
+  <div class="row">
+    <nav class="navbar navbar-dark  ">
+      <div class="container">
+        <!-- <div class="navbar-header">
+      <a>    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRWOI1MKMWgjn8d5g6z0dIIe0vPwBeGiRK6BNMeFDFIVZ0Gppmo"  width="100px"></a>>
+        </div> -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <button style="background: none ;float: left;margin-left:-1100px;"  (click)=onClick() type="button"  ><span style="color: rgb(47, 9, 90);"> <<=back</span></button>
+
+              <li><a href="http://localhost:3000/"><span style="color: rgb(47, 9, 90);"> ADD SCHEDULE</span></a></li>
+            <li><a href="#contact"><span style="color: rgb(47, 9, 90);">LOGOUT</span></a>
+              <!-- <button   (click)=onClick() type="button"  >Medical</button> -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+</div>
+  <form class="form-inline">
+    <div class="input-group" style="margin-left: 500px;margin-top: 40px;;">
+      <input type="text" class="form-control" size="50" style="font-weight: 800;" placeholder="Email Address" name="search" placeholder=" Search by Specialisation" [(ngModel)]="search" >         
+    </div>
+  </form>
+
+
+<div *ngIf="doc != null" >
+    <div class="row">
+        
+        <div *ngFor="let i of doc | filter: search">
+            <div class="mat-card" >
+               <pre style="background-color:rgb(127, 151, 187);color: brown ;font-size: medium;">NAME:{{i.name}}     Address:{{i.addr}}     Email:{{i.Email}}       Mobile Number:{{i.mnum}}</pre>
+                
+                <!-- <h4></h4>
+                <h4></h4>
+                <h4></h4> -->
+            
+            </div>
+            <br>
+        </div>
+    </div>
+</div>
+
+
+</div>
